@@ -1,8 +1,8 @@
 package com.company;
 
 public class Rope extends Creature{
-    public Rope(String name){
-        super(name);
+    public Rope(){
+        super("веревк");
     }
     public void link(String what){
         System.out.print("ам связаться " + what + "ой, как это делают альпинисты,");

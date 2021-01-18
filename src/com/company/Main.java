@@ -3,15 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	Everyone everyone = new Everyone("Все");
+	Everyone everyone = new Everyone();
 	Tunnel tunnel = new Tunnel("тоннел");
-	Znayka znayka = new Znayka("Знайка");
+	Znayka znayka = new Znayka();
 	Realtraveller traveller = new Realtraveller("путешественник");
 	Ice ice = new Ice("лед");
-	Rope rope = new Rope("веревк");
-	Klepka klepka = new Klepka("Клепка");
-	Alpenstok alpenstok = new Alpenstok("альпеншток");
-	This tthis = new This(" Это");
+	Rope rope = new Rope();
+	Klepka klepka = new Klepka();
+	Alpenstok alpenstok = new Alpenstok();
+	This tthis = new This();
 
 	everyone.move(everyone.getName(), Place.FURTHER);
 	tunnel.come(Time.SOON, tunnel.getName());

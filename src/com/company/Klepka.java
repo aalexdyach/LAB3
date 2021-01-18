@@ -1,8 +1,8 @@
 package com.company;
 
 public class Klepka extends Creature implements ToFlow{
-    public Klepka(String name){
-        super(name);
+    public Klepka(){
+        super("Клепка");
     }
     public void slip(String who, Place Enum){
         System.out.print(" как шедший");

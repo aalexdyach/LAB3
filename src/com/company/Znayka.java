@@ -1,8 +1,8 @@
 package com.company;
 
 public class Znayka extends Creature {
-    public Znayka(String name){
-        super(name);
+    public Znayka(){
+        super("Знайка");
     }
     public void order(String who, String who2, String Case, Place Enum){
         if(Case == "велел")

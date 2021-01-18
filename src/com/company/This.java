@@ -1,8 +1,8 @@
 package com.company;
 
 public class This extends Creature implements Stop{
-    public This(String name){
-        super(name);
+    public This(){
+        super(" Это");
     }
     @Override
     public void was(String what, Time Enum){

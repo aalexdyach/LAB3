@@ -1,8 +1,8 @@
 package com.company;
 
 public class Everyone extends Creature{
-    public Everyone(String name){
-        super(name);
+    public Everyone(){
+        super("Все");
     }
     public void move(String who, Place Enum){
         System.out.print(who + " двинулись");
